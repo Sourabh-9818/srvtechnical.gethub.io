@@ -1,0 +1,293 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+.bodystyle{
+	width: 90%;
+	margin: 0 auto;
+}
+/* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    height: 450px;
+}
+  
+ .carousel-inner h3{
+color: #fff;
+font-size: 240%;
+word-spacing: 5px;
+letter-spacing: 3px
+margin-bottom:20px;
+text-transform: uppercase;	
+font-weight: lighter;
+}
+.carousel-inner h2{
+color: #fff;
+font-size: 240%;
+word-spacing: 5px;
+letter-spacing: 3px
+margin-bottom:20px;
+text-transform: uppercase;	
+font-weight: lighter;
+}
+.colorchange{
+	animation: colorsrv 1s infinite;
+}
+@keyframes colorsrv{
+	0%{color: black}
+	25%{color: blue}
+	50%{color: white}
+	100%{color: red}
+}
+.btn{
+	display: inline-block;
+	padding: 5px 80px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	margin-top:50px;
+	margin-top: 50px
+
+
+}
+.btn-full{
+	background-color: transparent;
+	color: red;
+	margin-right: 15px;
+	border: 1px solid red;
+	margin-bottom:20px;
+}
+.btn-full:hover{
+	background-color: white;
+}
+main{
+	margin: 40px 0;
+}
+h1{
+	margin: 20px 0;
+	text-align: center;
+	color:  	
+}
+.card{
+	border: none!important;
+}
+.card-body{
+	padding: 5px 0!important;
+}
+.mis{
+	width: 100%;
+	height: 450;
+	background-image: url('sdd/4.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 20px 0 40px 0;
+	text-align: center;
+} 
+.mis h3{
+color: #fff;
+font-size: 240%;
+word-spacing: 5px;
+letter-spacing: 3px
+margin-bottom:20px;
+text-transform: uppercase;	
+font-weight: lighter;
+text-align: center;
+padding-top: 10px;
+}
+a{
+	text-align: center;
+}
+.btn{
+	display: inline-block;
+	padding: 5px 50px;
+	font-weight: lighter;
+	text-decoration: none;
+	text-transform: uppercase;
+	border-radius: 200px;
+	transition: background-color 0.2s, border 0.2s, color 0.2s;
+	margin-top:50px;
+	text-align: center;	
+
+
+}
+.btn-full{
+	background-color: transparent;
+	color: red;
+	margin-right: 15px;
+	border: 1px solid red;
+	margin-bottom:20px;
+	text-align: center;
+}
+.btn-full:hover{
+	background-color: white;
+}
+
+
+.btn-srv{
+	background-color: transparent;
+	color: white;
+	margin-right: 15px;
+	border: 1px solid white;
+	margin-bottom:20px;
+}
+.btn-srv:hover{
+	background-color: purple;
+}
+
+
+.colorchange{
+	animation: colorsrv 1s infinite;
+}
+@keyframes colorsrv{
+	0%{color: black}
+	25%{color: blue}
+	50%{color: black}
+	100%{color: white}
+}
+.colorch{
+	animation: colorsr 1s infinite;
+}
+@keyframes colorsr{
+	0%{color: purple}
+	25%{color: grey}
+	50%{color: white}
+	100%{color: green}
+}
+.contact{
+	width: 100%;
+    height: 350px;
+    font-family: sans-serif;
+	background-image: url('sdd/3.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 20px 0 40px 0;
+	text-align: center;
+
+} 
+.contact h1{
+	color: white;
+	
+
+
+}
+.textbox label{
+	color: white;
+}
+.textbox input{
+	outline: thick;
+	border: none;
+	background: none;
+	color: white;
+	border-bottom: 1px solid #4caf50;
+}
+.btn{
+	width: 100%
+	background: none;
+	border: 2px solid #4caf50;
+	color: white;
+	padding: 5px;
+	font-size: 18px;
+	cursor: pointer;
+	}
+	.btn:hover{
+		color black;
+	}
+	.team{
+		overflow: hidden;
+		width: 100%;
+    height: 500px;
+    font-family: sans-serif;
+	background-image: url('sdd/9.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin: 20px 0 40px 0;
+	text-align: center;
+	font-weight: lighter;
+	}
+	.team h1{
+		font-weight: lighter;
+	}
+	.colorchange{
+	animation: colorsrv 1s infinite;
+}
+@keyframes colorsrv{
+	0%{color: red}
+	25%{color: blue}
+	50%{color: pink}
+	100%{color: purple}
+}
+.ps{
+	margin-bottom: 40px;
+}
+.ps a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+.ps a img{
+	text-align: center;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+}
+.ps a:hover > img{
+	filter: none;
+}
+.section{
+	width: 600px;
+	margin: auto;
+	font-size: 20px;
+	color: white;
+	text-align: justify;
+	height: 0;
+	overflow: hidden;
+}
+.name{
+	display: block;
+	text-align: center;
+	text-transform: uppercase;
+	font-size: 22px;
+}
+.section:target{
+	height: auto;
+}
+.myhome{
+		width: 100%;
+	height: 550px;
+	background-image: url('sdd/8.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-bottom: 40px;
+	text-align: center;
+
+}
+.myhome h3{
+	color: #fff;
+font-size: 240%;
+word-spacing: 5px;
+letter-spacing: 3px
+margin-bottom:80px;
+text-transform: uppercase;	
+font-weight: lighter;
+text-align: center;
+padding-top: 200px;
+}
+.myhome h2{
+	color: #fff;
+font-size: 240%;
+word-spacing: 5px;
+letter-spacing: 3px
+margin-bottom:80px;
+text-transform: uppercase;	
+font-weight: lighter;
+text-align: center;
+}
+.ARC{
+	position: absolute;
+}
+.ARC h3{
+	color: grey;	
+font-weight: lighter;
+text-align: center;
+}
